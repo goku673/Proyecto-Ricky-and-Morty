@@ -1,7 +1,7 @@
 
-import Card from "./Card"
+import Card from "../Card/Card"
 import  styles from "./Cards.module.css"
-import { Link } from "react-router-dom";
+
 const Cards =({characters})=>{
     console.log(characters) ; 
     return (
@@ -25,7 +25,7 @@ const Cards =({characters})=>{
                     }
                  </div>
 
-                     <Link  to="/"> <p>regresar</p></Link>
+                     
            </div>
     ) ;  
 }
